@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-image: url(photos/error404.jpg);
+    background-size: cover;
+    font-family: "Epunda Slab", serif;
+    font-optical-sizing: auto;
+}
+
+main {
+    text-align: center;
+    padding-top: 90px;
+    font-size: 40px;
+}
+
+.demitour {
+    font-size: large;
+}
+
+a:link, a:visited {
+  background-color: rgb(147, 240, 153);
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px ;
+}

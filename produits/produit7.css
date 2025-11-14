@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background: url(photos/background.jpg) center;
+    background-size: cover;
+    font-family: "Epunda Slab", serif;
+    font-optical-sizing: auto;
+}
+
+.checked {
+  color: orange;
+}
+
+nav {
+    border: 1px solid black;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+}
+
+.boutique::-webkit-scrollbar {
+    display: none;
+}
+
+.description {
+    padding: 20px 0 20px 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 7px 7px black;
+    margin: 30px;
+    background: url(photos/background_produit.jpg);
+    background-size: cover;
+}
+
+.list {
+    padding-left: 20px;
+}
+
+.produits_similaire {
+    padding-left: 30px;
+}
+
+.boutique {
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+    padding: 50px 30px 50px 2px;
+    justify-content: space-around;
+}
+
+.boutique::-webkit-scrollbar {
+    display: none;
+}
+
+.boutique > div {
+  box-shadow: 0 7px 7px black;
+  margin-right: 20px;
+}
+
+.boutique > div > p {
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.produit3 {
+    padding-top: 10px;
+}
+
+.panier{
+    background-color: black;
+    color: white;
+}
+
+.panier:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.a_droite {
+    display: flex;
+    gap: 30px;
+}
+
+.a_droite a {
+    text-decoration: none;
+    color: black;
+}
+
+.up {
+   text-align: end;
+   padding-right: 20px;
+   padding-top: 20px;
+}
+
+footer {
+    background: url(photos/about.jpg);
+    background-size: cover; 
+    color: white;
+}
+
+.img {
+    padding-left: 30px;
+}
+
+footer a {
+     color: #fff;
+}
+
+.about {
+    padding: 0 0 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.hfoot {
+    padding: 0 0 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.copyright {
+    text-align: center;
+    padding: 20px 0 30px 0;
+}
+
+.chausseur{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.chausseur::-webkit-scrollbar {
+    display: none;
+}
+
+.chausseur {
+  box-shadow: 0 7px 7px black;
+  margin: 30px;
+  background: url(photos/background_produit.jpg);
+  background-size: contain;
+}

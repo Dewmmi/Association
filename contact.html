@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contact.css" />
+    <title>Contacter</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo" id="top">
+          <a href="association.html"
+            ><img src="photos/logo.png" alt="logo" width="40px"
+          /></a>
+        </div>
+        <div class="a_droite">
+          <a href=""
+            ><img src="photos/search.png" alt="search" width="20px"
+          /></a>
+          <a href="questions.html" target="_blank">Questions</a>
+          <a href="donation.html" target="_blank">Don</a>
+          <a href="boutique.html" target="_blank">Boutique</a>
+          <a href="association.html" target="_blank">Accueil</a>
+          <a href="panier.html" target="_blank"
+            ><img src="photos/basket.png" alt="panier" width="20px"
+          /></a>
+        </div>
+      </nav>
+    </header>
+    <section class="ou_on_est">
+      <h1>Ou on se situe:</h1>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36607.12551160351!2d2.3336980966905765!3d48.85781631203988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e30d4668339%3A0xa9abf21c286d0767!2sPalais%20Garnier!5e0!3m2!1sen!2sfr!4v1757578140732!5m2!1sen!2sfr"
+        width="100%"
+        height="450"
+        style="border: 2"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <main>
+      <h2>Contacter:</h2>
+      <div class="info">
+        <img src="photos/info.png" width="20" />
+        <span class="infotext"
+          >veuillz vérifiez que votre question n'est pas deja present dans
+          <a href="questions.html" target="_blank">questions</a></span
+        >
+      </div>
+      <form
+        action="https://formsubmit.co/9d8562b5cedd0d43eb454cfbbe12de64"
+        method="POST"
+        target="_blank"
+      >
+        <input
+          type="hidden"
+          name="access_key"
+          value="9bb8fed0-b3be-4738-94c3-6746a0d8423f"
+        />
+
+        <label for="name"> nom:</label>
+        <input type="text" name="nom" id="name" required />
+        <label for="prenom"> prenom:</label>
+        <input type="text" name="prenom" id="prenom" required />
+
+        <label for="email"> email:</label>
+        <input type="email" name="email" id="email" required />
+        <label for="numero"> numero:</label>
+        <input type="number" name="numero" id="numero" required /><br />
+        <p>Votre raison de nous conatcter:</p>
+        <textarea name="message" class="taille" cols="60"></textarea>
+        <label for="textarea"></label>
+        <input type="submit" value="Envoyer" class="envoyer" />
+      </form>
+    </main>
+
+    <footer>
+      <hr />
+      <section class="up">
+        <a href="#top"><img src="photos/up.png" alt="up" width="20" /></a>
+      </section>
+      <div class="img">
+        <a href="association.html"
+          ><img src="photos/logo_alternative.png" alt="logo" width="40px"
+        /></a>
+      </div>
+      <div class="hfoot">
+        <div><h3>Questions</h3></div>
+        <div><h3>Don</h3></div>
+        <div><h3>Boutique</h3></div>
+        <div><h3>Contacter</h3></div>
+      </div>
+      <div class="about">
+        <div>
+          <a href="questions.html" target="_blank">Des question pour nous</a>
+        </div>
+        <div>
+          <a href="donation.html" target="_blank"
+            >Donation pour ceux <br />qui ont besoin</a
+          >
+        </div>
+        <div>
+          <a href="boutique.html" target="_blank"
+            >Boutique, tout l'argent va <br />vers l'association</a
+          >
+        </div>
+        <div class="contact">
+          <a href="page404.html" instagram
+            ><img src="photos/instagram.png" style="width: 15px"
+          /></a>
+          <a href="page404.html" instagram
+            ><img src="photos/gmail.png" style="width: 15px"
+          /></a>
+          <a href="page404.html" instagram
+            ><img src="photos/youtube.png" style="width: 15px"
+          /></a>
+        </div>
+      </div>
+      <div class="copyright">
+        <a href="mentionslegal.html">©2025 Association - copyright</a>
+      </div>
+    </footer>
+  </body>
+</html>
